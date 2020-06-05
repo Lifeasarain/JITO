@@ -1,0 +1,2 @@
+commit_id,project,time_stamp,author_email,is_merge,is_fix,classification,contains_bug,fix_by,find_interval,buggy_lines,fixes,fix_file_num,clean_lines
+a7844ab716eeeaddad24061dcf6224264444c67b,druid,1589337134,fangchengq@gmail.com,False,False,Feature Addition,False,,,,,0,"[""WebStatFilter webAppSt = new WebStatFilter();"", ""webAppSt.pathMatcher.hashCode();"", ""stmtResource = stmtId;"", ""String s = null;"", ""LOG.debug(\""getUrl error\"", e);"", ""Object obj = method.isBridge();"", ""if (null == start) {""]"

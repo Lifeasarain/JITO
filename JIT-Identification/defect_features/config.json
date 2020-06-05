@@ -1,0 +1,15 @@
+{
+  "data_root_path": "/Users/lifeasarain/IdeaProjects/",
+  "df_basic_path": "/Users/lifeasarain/Desktop/JITO/JIT-Identification/data/df/",
+  "extensions": [
+    ".py",
+    ".cc",
+    ".cpp",
+    ".java"
+  ],
+  "git_log_path": "/Users/lifeasarain/Desktop/JITO/JIT-Identification/data/log/",
+  "local_path": "/Users/lifeasarain/Desktop/JITO/JIT-Identification/",
+  "projects": [
+    "druid"
+  ]
+}

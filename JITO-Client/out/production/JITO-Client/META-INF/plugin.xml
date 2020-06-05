@@ -1,0 +1,57 @@
+<idea-plugin>
+  <id>com.zju.edu.jito</id>
+  <name>JITO</name>
+  <version>1.0</version>
+  <vendor email="fangchengq@zju.edu.cn" url="http://www.zju.edu.cn">Taiyangshen</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="181.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <group id="JITOGroup" text="JITO" description="Just-In-Time Defect Identiﬁcation and Localization" popup="true">
+      <action id="SetPropertiesAction_ID" class="zju.plugin.SetPropertiesAction" text="Set Properties"
+              description="Set Properties">
+      </action>
+      <separator/>
+      <action id="BuildModelAction_ID" class="zju.plugin.BuildModelAction" text="Build Model" description="Build a new model">
+      </action>
+      <separator/>
+      <action id="AnalyzeChangesAction_ID" class="zju.plugin.AnalyzeChangesAction" text="Analyze Change" description="Analyze changes">
+      </action>
+      <separator/>
+      <action id="Unhighlight_ID" class="zju.plugin.UnhighlightAction" text="Unhighlight"
+              description="Unhighlight the lines">
+      </action>
+
+      <!--<separator/>-->
+      <!--<action id="HighlightTestAction_ID" class="HighlightTestAction" text="HighlightTestAction"-->
+              <!--description="HighlightTestAction"/>-->
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </group>
+
+  </actions>
+
+
+</idea-plugin>

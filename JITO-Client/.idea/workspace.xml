@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c72d372a-4bfa-465e-88d8-ab0086326a77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/SuperCSV_1_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_text_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SuperCSV-1.52.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-text-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/SetPropertiesAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JITO-Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JITO-Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/AnalyzeChangesAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/AnalyzeChangesAction$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/AnalyzeChangesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/BuildModelAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/BuildModelAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/DataCenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/FtpUploadOld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/FtpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/HighlightTestAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/HttpClientPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/MyMarkupModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/Sentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/UnhighlightAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/main/zju/tys/jito/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/org.eclipse.jgit-5.7.0.202003110725-r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/org/intellij/sdk/language/LineNumberUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/AnalyzeChangesAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/BuildModelAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/DataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/FtpUploadOld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/FtpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/HighlightTestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/HttpClientPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/MyMarkupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/MyMarkupModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/Sentence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/UnhighlightAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/UnhighlightAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zju/tys/jito/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/intellij/sdk/language/LineNumberUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/artifacts/JIT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/artifacts/JIT_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/libraries/lib1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/libraries/servlet_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/qaplug_profiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/lib/SLP-Core_v0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/lib/SuperCSV-1.52.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/lib/slp-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/example/Testngram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/example/Testreadline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/CLI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/giga/GigaCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/giga/VirtualCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/io/CounterIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/trie/AbstractTrie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/trie/ArrayStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/trie/ArrayTrieCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/counting/trie/MapTrieCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/example/BasicJavaRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/example/BasicNLRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/example/CharacterWordHybrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/example/EntropyForEachLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/example/ParallelBidirectional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/io/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/io/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/code/JavaLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/runners/LexerRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/simple/CharacterLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/simple/PunctuationLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/simple/TokenizedLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/simple/WhitespaceLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/util/AddEndMarkers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/util/IntsCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/util/ReverseLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/lexing/util/SkipEmptyLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/AbstractModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/dynamic/CacheModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/dynamic/NestedModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/misc/CharacterModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/misc/ReverseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/mix/InverseMixModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/mix/MixModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/mix/ProportionalMixModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/ngram/ADMModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/ngram/ADModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/ngram/JMModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/ngram/NGramModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/ngram/WBModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/runners/Completion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/modeling/runners/ModelRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/sequencing/NGramSequencer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/sequencing/SkipGramSequencer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/translating/Vocabulary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/translating/VocabularyRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/util/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/slp/core/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/Build.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/BuildModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/DefectLocater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/JavaRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/Proptest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/Sentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/UploadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/util/CSV_handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/util/ConfUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/classes/zju/defect/util/GitUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/JavaEWAH-0.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/SuperCSV-1.52.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/commons-codec-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/commons-lang3-3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/commons-text-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/httpclient-4.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/httpcore-4.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/jsch-0.1.50.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/jython-standalone-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/org.eclipse.jgit-3.5.0.201409260305-r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/lib/slp-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JIT_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/out/artifacts/JITwar/JITwar.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/example/Testngram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/example/Testreadline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/CLI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/giga/GigaCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/giga/VirtualCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/io/CounterIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/trie/AbstractTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/trie/ArrayStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/trie/ArrayTrieCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/counting/trie/MapTrieCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/example/BasicJavaRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/example/BasicNLRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/example/CharacterWordHybrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/example/EntropyForEachLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/example/ParallelBidirectional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/io/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/io/Writer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/Lexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/code/JavaLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/runners/LexerRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/simple/CharacterLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/simple/PunctuationLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/simple/TokenizedLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/simple/WhitespaceLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/util/AddEndMarkers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/util/IntsCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/util/ReverseLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/lexing/util/SkipEmptyLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/AbstractModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/dynamic/CacheModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/dynamic/NestedModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/misc/CharacterModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/misc/ReverseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/mix/InverseMixModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/mix/MixModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/mix/ProportionalMixModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/ngram/ADMModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/ngram/ADModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/ngram/JMModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/ngram/NGramModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/ngram/WBModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/runners/Completion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/modeling/runners/ModelRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/sequencing/NGramSequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/sequencing/SkipGramSequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/translating/Vocabulary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/translating/VocabularyRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/util/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/slp/core/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/Build.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/BuildModelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/DefectLocater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/DefectLocatertest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/JavaRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/Proptest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/Sentence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/util/CSV_handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/util/ConfUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/java/zju/defect/util/GitUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/example/Testngram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/example/Testreadline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/CLI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/giga/GigaCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/giga/VirtualCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/io/CounterIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/trie/AbstractTrie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/trie/ArrayStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/trie/ArrayTrieCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/counting/trie/MapTrieCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/example/BasicJavaRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/example/BasicNLRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/example/CharacterWordHybrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/example/EntropyForEachLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/example/ParallelBidirectional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/io/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/io/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/code/JavaLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/runners/LexerRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/simple/CharacterLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/simple/PunctuationLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/simple/TokenizedLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/simple/WhitespaceLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/util/AddEndMarkers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/util/IntsCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/util/ReverseLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/lexing/util/SkipEmptyLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/AbstractModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/dynamic/CacheModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/dynamic/NestedModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/misc/CharacterModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/misc/ReverseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/mix/InverseMixModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/mix/MixModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/mix/ProportionalMixModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/ngram/ADMModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/ngram/ADModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/ngram/JMModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/ngram/NGramModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/ngram/WBModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/runners/Completion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/modeling/runners/ModelRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/sequencing/NGramSequencer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/sequencing/SkipGramSequencer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/translating/Vocabulary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/translating/VocabularyRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/util/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/slp/core/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/Build.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/BuildModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/DefectLocater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/JavaRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/Proptest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/Sentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/UploadServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/util/CSV_handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/util/ConfUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/util/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/target/classes/zju/defect/util/GitUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/web/WEB-INF/lib/commons-lang3-3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/web/WEB-INF/lib/commons-text-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/web/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Server/web/index.jsp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1914717977">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="java" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="424" />
+          <entry key="xml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="424" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/util/Pair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/ToolFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/compiler/IScanner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/util/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7201">
+              <caret line="404" column="5" selection-start-line="404" selection-start-column="5" selection-end-line="404" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/counting/Counter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2641">
+              <caret line="153" column="88" selection-start-line="153" selection-start-column="88" selection-end-line="153" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Action" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>closeable</find>
+      <find>success</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/slp/core/modeling/ModelRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/slp/core/example/JavaRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/slp/core/util/Pair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/slp/core/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectId" id="1cqX4s9LQv1JtqTePlFBmkY3fKJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zju" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591356500276" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.20092379" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/org/intellij/sdk/language" />
+      <recent name="$PROJECT_DIR$/src/org/intellij/sdk/language/simple/flex" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DefectLocater">
+    <configuration name="AnalyzeChangesAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.plugin.AnalyzeChangesAction" />
+      <module name="JITO-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.plugin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.defect.Build" />
+      <module name="JITO-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.defect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildModelAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.plugin.BuildModelAction" />
+      <module name="JITO-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.plugin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefectLocater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.defect.DefectLocater" />
+      <module name="JITO-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.defect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLP-Core_v0.2.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/SLP-Core_v0.2.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="JITO-Client" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="JITO-Client" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Plugin.Plugin" />
+      <item itemvalue="Application.Build" />
+      <item itemvalue="Application.BuildModelAction" />
+      <item itemvalue="Application.DefectLocater" />
+      <item itemvalue="Application.AnalyzeChangesAction" />
+      <item itemvalue="JAR Application.SLP-Core_v0.2.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DefectLocater" />
+        <item itemvalue="Application.AnalyzeChangesAction" />
+        <item itemvalue="JAR Application.SLP-Core_v0.2.jar" />
+        <item itemvalue="Application.BuildModelAction" />
+        <item itemvalue="Application.Build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c72d372a-4bfa-465e-88d8-ab0086326a77" name="Default Changelist" comment="" />
+      <created>1587125405159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587125405159</updated>
+      <workItem from="1587125409241" duration="3174000" />
+      <workItem from="1587133164999" duration="526000" />
+      <workItem from="1587208210910" duration="1015000" />
+      <workItem from="1587211826777" duration="965000" />
+      <workItem from="1587212852801" duration="17686000" />
+      <workItem from="1587990621628" duration="125000" />
+      <workItem from="1587990779269" duration="489000" />
+      <workItem from="1587991298917" duration="36000" />
+      <workItem from="1587991365139" duration="993000" />
+      <workItem from="1587992460134" duration="114000" />
+      <workItem from="1587992602447" duration="230000" />
+      <workItem from="1587992865979" duration="30000" />
+      <workItem from="1587992926886" duration="956000" />
+      <workItem from="1588041368580" duration="25000" />
+      <workItem from="1588041424194" duration="702000" />
+      <workItem from="1588127557881" duration="32000" />
+      <workItem from="1588127619746" duration="246000" />
+      <workItem from="1588127889254" duration="50000" />
+      <workItem from="1588127959452" duration="4962000" />
+      <workItem from="1588387445865" duration="2727000" />
+      <workItem from="1588557365527" duration="12171000" />
+      <workItem from="1588822443660" duration="447000" />
+      <workItem from="1588823160913" duration="122000" />
+      <workItem from="1588823307514" duration="6099000" />
+      <workItem from="1589027231548" duration="611000" />
+      <workItem from="1589037684734" duration="308000" />
+      <workItem from="1589038044921" duration="154000" />
+      <workItem from="1589038220802" duration="1300000" />
+      <workItem from="1589076599393" duration="11598000" />
+      <workItem from="1589119523416" duration="231000" />
+      <workItem from="1589163601645" duration="809000" />
+      <workItem from="1589165800782" duration="512000" />
+      <workItem from="1589166499513" duration="4743000" />
+      <workItem from="1589192652442" duration="100000" />
+      <workItem from="1589193504450" duration="7830000" />
+      <workItem from="1589348354636" duration="3416000" />
+      <workItem from="1589360287673" duration="1416000" />
+      <workItem from="1589362761850" duration="251000" />
+      <workItem from="1589363587808" duration="331000" />
+      <workItem from="1589364133946" duration="1368000" />
+      <workItem from="1589373501419" duration="1332000" />
+      <workItem from="1589377834388" duration="369000" />
+      <workItem from="1589378748254" duration="95000" />
+      <workItem from="1589421360940" duration="2325000" />
+      <workItem from="1589769940541" duration="3776000" />
+      <workItem from="1590493757984" duration="2372000" />
+      <workItem from="1590497257755" duration="1435000" />
+      <workItem from="1590499093631" duration="209000" />
+      <workItem from="1590499333661" duration="678000" />
+      <workItem from="1590500082939" duration="576000" />
+      <workItem from="1590500683249" duration="2331000" />
+      <workItem from="1590503142960" duration="166000" />
+      <workItem from="1590503335103" duration="533000" />
+      <workItem from="1590546840201" duration="22000" />
+      <workItem from="1590546888630" duration="300000" />
+      <workItem from="1590988915130" duration="1269000" />
+      <workItem from="1590990342596" duration="4295000" />
+      <workItem from="1590995765458" duration="21000" />
+      <workItem from="1590995901642" duration="1273000" />
+      <workItem from="1590997445391" duration="2647000" />
+      <workItem from="1591000391892" duration="1634000" />
+      <workItem from="1591002139789" duration="401000" />
+      <workItem from="1591002648823" duration="227000" />
+      <workItem from="1591003013990" duration="207000" />
+      <workItem from="1591003344250" duration="26000" />
+      <workItem from="1591003388830" duration="8035000" />
+      <workItem from="1591086164257" duration="1685000" />
+      <workItem from="1591087969230" duration="168000" />
+      <workItem from="1591088218054" duration="157000" />
+      <workItem from="1591088485646" duration="153000" />
+      <workItem from="1591088749092" duration="3037000" />
+      <workItem from="1591095440429" duration="3562000" />
+      <workItem from="1591099380984" duration="272000" />
+      <workItem from="1591099760783" duration="1231000" />
+      <workItem from="1591101121708" duration="459000" />
+      <workItem from="1591101763080" duration="1442000" />
+      <workItem from="1591103494228" duration="557000" />
+      <workItem from="1591106422280" duration="189000" />
+      <workItem from="1591106630415" duration="256000" />
+      <workItem from="1591106906786" duration="172000" />
+      <workItem from="1591107124472" duration="480000" />
+      <workItem from="1591107671500" duration="1618000" />
+      <workItem from="1591149598825" duration="239000" />
+      <workItem from="1591149914778" duration="474000" />
+      <workItem from="1591152991864" duration="500000" />
+      <workItem from="1591154336608" duration="1329000" />
+      <workItem from="1591236586465" duration="1969000" />
+      <workItem from="1591240615100" duration="256000" />
+      <workItem from="1591240985457" duration="979000" />
+      <workItem from="1591242051534" duration="225000" />
+      <workItem from="1591242300184" duration="398000" />
+      <workItem from="1591242809508" duration="6406000" />
+      <workItem from="1591249355471" duration="469000" />
+      <workItem from="1591249956203" duration="379000" />
+      <workItem from="1591250392570" duration="325000" />
+      <workItem from="1591250740927" duration="2119000" />
+      <workItem from="1591253009824" duration="522000" />
+      <workItem from="1591253561047" duration="124000" />
+      <workItem from="1591253712518" duration="156000" />
+      <workItem from="1591253891978" duration="231000" />
+      <workItem from="1591254146855" duration="449000" />
+      <workItem from="1591255419401" duration="621000" />
+      <workItem from="1591256917074" duration="512000" />
+      <workItem from="1591257481677" duration="1129000" />
+      <workItem from="1591258683513" duration="568000" />
+      <workItem from="1591259433096" duration="90000" />
+      <workItem from="1591259568957" duration="114000" />
+      <workItem from="1591259767150" duration="278000" />
+      <workItem from="1591260154029" duration="49000" />
+      <workItem from="1591260220887" duration="83000" />
+      <workItem from="1591260453401" duration="399000" />
+      <workItem from="1591260972352" duration="265000" />
+      <workItem from="1591261285099" duration="99000" />
+      <workItem from="1591261466688" duration="1314000" />
+      <workItem from="1591263031252" duration="1420000" />
+      <workItem from="1591266707847" duration="203000" />
+      <workItem from="1591267025094" duration="567000" />
+      <workItem from="1591267782612" duration="765000" />
+      <workItem from="1591268574049" duration="2975000" />
+      <workItem from="1591271594134" duration="2031000" />
+      <workItem from="1591274125812" duration="883000" />
+      <workItem from="1591275126167" duration="654000" />
+      <workItem from="1591275921628" duration="137000" />
+      <workItem from="1591276184778" duration="676000" />
+      <workItem from="1591323669469" duration="1881000" />
+      <workItem from="1591339518967" duration="1737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11686000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21086262" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2990099" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.20396039" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32970297" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32970297" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18019801" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="PsiViewer" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" width="822" height="669" key="#Project_Structure" timestamp="1591258389557">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" width="822" height="669" key="#Project_Structure/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1591258389557" />
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom" timestamp="1591259263799">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1591259263799" />
+    <state width="1878" height="273" key="GridCell.Tab.0.center" timestamp="1591259263796">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1591259263796" />
+    <state width="1878" height="273" key="GridCell.Tab.0.left" timestamp="1591259263795">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1591259263795" />
+    <state width="1878" height="273" key="GridCell.Tab.0.right" timestamp="1591259263797">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="273" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1591259263797" />
+    <state x="1735" y="107" key="SettingsEditor" timestamp="1591259523484">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1591258633995" />
+    <state x="1735" y="107" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1591259523484" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/lang/annotation/AnnotationHolder.class</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/compiler/IScanner.class</url>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/lang/annotation/AnnotationHolder.class</url>
+          <line>24</line>
+          <properties class="com.intellij.lang.annotation.AnnotationHolder" method="createWarningAnnotation">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/SLP-Core_v0.2.jar!/slp/core/modeling/ngram/NGramCache.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/SLP-Core_v0.2.jar!/slp/core/modeling/ngram/JMModel.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/SLP-Core_v0.2.jar!/slp/core/modeling/ngram/NGramModel.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/SetPropertiesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UnhighlightAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/lexing/runners/LexerRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/modeling/runners/ModelRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/modeling/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/example/JavaRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/lexing/LexerRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="158" column="25" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/modeling/ngram/JMModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/lexing/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/counting/giga/GigaCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/counting/trie/MapTrieCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/modeling/ModelRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4256">
+          <caret line="258" column="36" selection-start-line="258" selection-start-column="36" selection-end-line="258" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/lexing/code/JavaLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="1209" column="30" selection-start-line="1209" selection-start-column="30" selection-end-line="1209" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="136" column="59" selection-start-line="136" selection-start-column="59" selection-end-line="136" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/util/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/ToolFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/compiler/IScanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7201">
+          <caret line="404" column="5" selection-start-line="404" selection-start-column="5" selection-end-line="404" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/counting/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="153" column="88" selection-start-line="153" selection-start-column="88" selection-end-line="153" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/Proptest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocatertest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/BuildModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JITO-Client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SLP-Core_v0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20092379" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
