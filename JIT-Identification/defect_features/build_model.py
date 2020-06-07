@@ -29,12 +29,12 @@ def buildmodel(projectName, pythonProjectPath, dataPath):
 
     for p in conf.projects:
         # print('Project', p)
-        # GitLog().run(p)
-        # LogFeatures().log_feature()
+        GitLog().run(p)
+        LogFeatures().log_feature()
         FeatureCombination().featureCombination()
         Idmodel().buildIdmodel(pythonProjectPath)
         print('Build success')
 
 if __name__ == '__main__':
-    # buildmodel(sys.argv[1], sys.argv[2], sys.argv[3])
-    buildmodel("druid", "/Users/lifeasarain/Desktop/JITO/JIT-Identification", "/Users/lifeasarain/IdeaProjects/")
+    buildmodel(sys.argv[1], sys.argv[2], sys.argv[3])
+    # buildmodel("druid", "/Users/lifeasarain/Desktop/JITO/JIT-Identification", "/Users/lifeasarain/IdeaProjects/")

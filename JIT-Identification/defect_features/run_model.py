@@ -22,9 +22,9 @@ def runmodel(commithash, pythonProjectPath):
 
     for p in conf.projects:
         # print('Project',p)
-        # GitOneLog().commitrun(p)
-        # OneLogFeatures().log_one_feature()
-        # FeatureCombination().one_featureCombination(commithash)
+        GitOneLog().commitrun(p)
+        OneLogFeatures().log_one_feature()
+        FeatureCombination().one_featureCombination(commithash)
 
         result = Idmodel().runIdmodel(pythonProjectPath)
         if(1 == result):
