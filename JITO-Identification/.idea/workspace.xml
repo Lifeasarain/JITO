@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71462e36-c6a2-413d-ab66-04ef144eb0d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JIT-Identification.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JITO-Client.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/base.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/cbsnew.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/learnedModel.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/learnedModel2.RData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/onecommit.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/rmodel.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/rtest.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/tmp/onecommit.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/merge_namestat.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/merge_namestat2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/merge_numstat.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/merge_numstat2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/meta.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/meta2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/namestat.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/namestat2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/numstat.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/druid/numstat2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/build_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/build_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/report/druid.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/report/druid_one.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/run_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/run_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/utils/data_tmp/druid_a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/utils/data_tmp/druid_one_a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/utils/data_tmp/druid_one_v.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/defect_features/utils/data_tmp/druid_v.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/commit_meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/commit_meta1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/diffusion_features" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/diffusion_features1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/experience_features" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/experience_features1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/history_features" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/history_features1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/purpose_features" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/purpose_features1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/size_features" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/featuresStore/size_features1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/druidTrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/learnedModel.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="71462e36-c6a2-413d-ab66-04ef144eb0d7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,9 +168,10 @@
     <session id="552638801">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -238,7 +193,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/onelog_feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
+            <state relative-caret-position="380">
               <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
@@ -253,7 +208,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/log_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="722">
               <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
             </state>
           </provider>
@@ -289,8 +244,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/defect_features/build_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="171">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <marker date="1591512060886" expanded="true" signature="35:36" ph="..." />
               </folding>
@@ -302,7 +257,7 @@
         <entry file="file://$PROJECT_DIR$/defect_features/run_model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding>
                 <marker date="1591512060891" expanded="true" signature="77:79" ph="..." />
                 <marker date="1591512060891" expanded="true" signature="123:129" ph="..." />
@@ -639,8 +594,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15974441" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -936,6 +892,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/onelog_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+            <marker date="1591345730803" expanded="true" signature="578:579" ph="..." />
+            <marker date="1591345730803" expanded="true" signature="1456:1461" ph="..." />
+            <marker date="1591345730803" expanded="true" signature="1456:1465" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/log_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/onelog_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" selection-start-line="27" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/log_features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
@@ -949,6 +932,25 @@
             <marker date="1591346155519" expanded="true" signature="1325:1334" ph="..." />
             <marker date="1591346155519" expanded="true" signature="3009:3014" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/run_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <marker date="1591512060891" expanded="true" signature="77:79" ph="..." />
+            <marker date="1591512060891" expanded="true" signature="123:129" ph="..." />
+            <marker date="1591512060891" expanded="true" signature="514:515" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -976,56 +978,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/onelog_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" selection-start-line="27" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/onelog_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-            <marker date="1591345730803" expanded="true" signature="578:579" ph="..." />
-            <marker date="1591345730803" expanded="true" signature="1456:1461" ph="..." />
-            <marker date="1591345730803" expanded="true" signature="1456:1465" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/log_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/run_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <marker date="1591512060891" expanded="true" signature="77:79" ph="..." />
-            <marker date="1591512060891" expanded="true" signature="123:129" ph="..." />
-            <marker date="1591512060891" expanded="true" signature="514:515" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/build_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <marker date="1591512060886" expanded="true" signature="35:36" ph="..." />
           </folding>
