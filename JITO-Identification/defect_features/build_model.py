@@ -4,7 +4,7 @@ import json
 
 
 
-def buildmodel(projectName, pythonProjectPath, dataPath):
+def buildmodel(projectName, pythonProjectPath, dataPath, start_time, end_time):
 
     dict_var = {
         "data_root_path": dataPath,
@@ -29,12 +29,14 @@ def buildmodel(projectName, pythonProjectPath, dataPath):
 
     for p in conf.projects:
         # print('Project', p)
-        GitLog().run(p)
-        LogFeatures().log_feature()
+        GitLog().run(p, end_time)
+        LogFeatures().log_feature(start_time)
         FeatureCombination().featureCombination()
         Idmodel().buildIdmodel(pythonProjectPath)
-        print('Build success')
+        print('Model Build Success')
 
 if __name__ == '__main__':
-    buildmodel(sys.argv[1], sys.argv[2], sys.argv[3])
+    buildmodel(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
     # buildmodel("druid", "/Users/lifeasarain/Desktop/JITO/JIT-Identification", "/Users/lifeasarain/IdeaProjects/")
+    # buildmodel("druid", "/Users/lifeasarain/Desktop/tmp/JITO/JITO-Identification", "/Users/lifeasarain/IdeaProjects/", "2014-1-1", "2015-1-1")
+

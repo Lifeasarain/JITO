@@ -94,6 +94,30 @@ def logstr_to_gitlogs(project, logstr):
             continue
         for p in gl.parent:
             git_logs[index_commit_id_map[p]].add_son(gl.commit_id)
+
+        i += 1
+    return git_logs
+
+def logstr_to_gitlogs_time(project, logstr):
+    lines = logstr.split('\n')
+    line_number = len(lines)
+    i = 0
+    git_logs = list()
+    index_commit_id_map = dict()
+    while i < line_number:
+        assert(i < line_number - 4)
+        rgl, i = assign_head_to_rgl(lines, i)
+        rgl.commit_msg_lines = list()
+        while not is_commit_head(lines, i):
+            if i < line_number:
+                rgl.commit_msg_lines.append(lines[i])
+                i += 1
+            else:
+                break
+        gl = RawGitCommitMeta(project)
+        gl.from_raw_git_log(rgl)
+        index_commit_id_map[gl.commit_id] = len(git_logs)
+        git_logs.append(gl)
         i += 1
     return git_logs
 

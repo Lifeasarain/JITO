@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71462e36-c6a2-413d-ab66-04ef144eb0d7" name="Default Changelist" comment="" />
+    <list default="true" id="71462e36-c6a2-413d-ab66-04ef144eb0d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/Build.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/Build.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/BuildModelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/DefectLocater.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/DefectLocater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/JavaRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/JavaRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/defect/Proptest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/AnalyzeChangesAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/AnalyzeChangesAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/BuildModelAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/BuildModelAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/BuildModelAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/BuildModelAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/DataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/DataCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/PropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/PropertiesDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/UiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/out/production/JITO-Client/zju/plugin/UiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/defect/Build.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/defect/Build.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/defect/DefectLocater.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/defect/DefectLocater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/defect/JavaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/defect/JavaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/AnalyzeChangesAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/AnalyzeChangesAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/BuildModelAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/BuildModelAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/DataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/DataCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/PropertiesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/PropertiesDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/UiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Client/src/main/java/zju/plugin/UiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JIT-Identification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JITO-Identification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/build_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/build_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/log_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/log_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/log_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/log_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/object/mem_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/object/mem_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defect_features/utils/features_combination.py" beforeDir="false" afterPath="$PROJECT_DIR$/defect_features/utils/features_combination.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,6 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JITO_Identification$runR.coverage" NAME="runR Coverage Results" MODIFIED="1591614643788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/defect_features" />
     <SUITE FILE_PATH="coverage/JIT_defect_prediction_code$features_combination.coverage" NAME="features_combination Coverage Results" MODIFIED="1585653606314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/defect_features/utils" />
     <SUITE FILE_PATH="coverage/JIT_defect_prediction_code$jsontest.coverage" NAME="jsontest Coverage Results" MODIFIED="1588908707609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/defect_features" />
     <SUITE FILE_PATH="coverage/JIT_defect_prediction_code$main.coverage" NAME="main Coverage Results" MODIFIED="1585534481660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/defect_features" />
@@ -187,19 +219,55 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="880688175">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="657" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="657" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="commit_meta" value="5" />
+          <entry key="diffusion_features" value="3" />
+          <entry key="experience_features" value="2" />
+          <entry key="history_features" value="3" />
+          <entry key="json" value="3" />
+          <entry key="log" value="6" />
+          <entry key="purpose_features" value="2" />
+          <entry key="py" value="17" />
+          <entry key="size_features" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="Log" value="6" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/defect_features/onelog_feature.py">
+        <entry file="file://$PROJECT_DIR$/defect_features/build_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="262">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
-                <element signature="e#23#33#0" expanded="true" />
-                <marker date="1591345730803" expanded="true" signature="578:579" ph="..." />
-                <marker date="1591345730803" expanded="true" signature="1456:1461" ph="..." />
-                <marker date="1591345730803" expanded="true" signature="1456:1465" ph="..." />
+                <marker date="1591619774901" expanded="true" signature="35:36" ph="..." />
               </folding>
             </state>
           </provider>
@@ -208,8 +276,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/log_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="397">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -217,8 +285,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/onelog_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="27" selection-start-line="27" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="479">
+              <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/analyzer/git_commit_linker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="119" column="60" lean-forward="true" selection-start-line="119" selection-start-column="60" selection-end-line="119" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -226,28 +303,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/log_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="1295">
+              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
-                <marker date="1591346155519" expanded="true" signature="530:532" ph="..." />
-                <marker date="1591346155519" expanded="true" signature="566:571" ph="..." />
-                <marker date="1591346155519" expanded="true" signature="1269:1273" ph="..." />
-                <marker date="1591346155519" expanded="true" signature="1325:1330" ph="..." />
-                <marker date="1591346155519" expanded="true" signature="1325:1334" ph="..." />
-                <marker date="1591346155519" expanded="true" signature="3009:3014" ph="..." />
+                <marker date="1591615160796" expanded="true" signature="546:548" ph="..." />
+                <marker date="1591615160796" expanded="true" signature="593:598" ph="..." />
+                <marker date="1591615160796" expanded="true" signature="1449:1452" ph="..." />
+                <marker date="1591615160796" expanded="true" signature="1504:1509" ph="..." />
+                <marker date="1591615160796" expanded="true" signature="1504:1513" ph="..." />
+                <marker date="1591615160796" expanded="true" signature="3199:3204" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/defect_features/build_model.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="496">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/defect_features/utils/features_combination.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1406">
+              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
               <folding>
-                <marker date="1591512060886" expanded="true" signature="35:36" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1591614495170" expanded="true" signature="119:9478" ph="..." />
+                <marker date="1591614495170" expanded="true" signature="9516:9521" ph="..." />
+                <marker date="1591614495170" expanded="true" signature="10501:10506" ph="..." />
               </folding>
             </state>
           </provider>
@@ -256,22 +345,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/run_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
-                <marker date="1591512060891" expanded="true" signature="77:79" ph="..." />
-                <marker date="1591512060891" expanded="true" signature="123:129" ph="..." />
-                <marker date="1591512060891" expanded="true" signature="514:515" ph="..." />
+                <marker date="1591707244064" expanded="true" signature="77:79" ph="..." />
+                <marker date="1591707244064" expanded="true" signature="123:129" ph="..." />
+                <marker date="1591707244064" expanded="true" signature="514:515" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/defect_features/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -279,24 +359,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defect_features/idmodel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="462">
+              <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1591239356476" expanded="true" signature="54:56" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="97:102" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="97:836" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="541:546" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="541:550" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="888:893" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="888:1853" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="1650:1655" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="1895:1896" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="1895:1900" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="2839:2844" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="2839:3011" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="3057:3062" ph="..." />
-                <marker date="1591239356476" expanded="true" signature="3057:3073" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="54:56" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="97:102" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="97:836" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="541:546" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="541:550" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="888:893" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="888:1853" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="1650:1655" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="1895:1896" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="1895:1900" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="2839:2844" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="2839:3011" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="3057:3062" ph="..." />
+                <marker date="1591706417652" expanded="true" signature="3057:3073" ph="..." />
               </folding>
             </state>
           </provider>
@@ -339,12 +419,10 @@
         <option value="$PROJECT_DIR$/defect_features/conftest.py" />
         <option value="$PROJECT_DIR$/defect_features/config.json" />
         <option value="$PROJECT_DIR$/defect_features/jsontest.py" />
-        <option value="$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py" />
         <option value="$PROJECT_DIR$/defect_features/utils/delete_data.py" />
         <option value="$PROJECT_DIR$/defect_features/build_modeltest.py" />
         <option value="$PROJECT_DIR$/defect_features/delete_data.py" />
         <option value="$PROJECT_DIR$/defect_features/rbuildtest.py" />
-        <option value="$PROJECT_DIR$/defect_features/object/mem_manager.py" />
         <option value="$PROJECT_DIR$/R/rmodel.R" />
         <option value="$PROJECT_DIR$/defect_features/features/diffusion.py" />
         <option value="$PROJECT_DIR$/defect_features/features/experience.py" />
@@ -357,19 +435,21 @@
         <option value="$PROJECT_DIR$/defect_features/features/one_history.py" />
         <option value="$PROJECT_DIR$/defect_features/features/one_purpose.py" />
         <option value="$PROJECT_DIR$/defect_features/features/one_size.py" />
-        <option value="$PROJECT_DIR$/defect_features/features/history.py" />
         <option value="$PROJECT_DIR$/R/onecommit.R" />
-        <option value="$PROJECT_DIR$/analyzer/git_commit_linker.py" />
-        <option value="$PROJECT_DIR$/defect_features/log_generation.py" />
         <option value="$PROJECT_DIR$/defect_features/rrr.py" />
         <option value="$PROJECT_DIR$/defect_features/__init__.py" />
         <option value="$PROJECT_DIR$/defect_features/hello.py" />
-        <option value="$PROJECT_DIR$/defect_features/idmodel.py" />
-        <option value="$PROJECT_DIR$/defect_features/log_features.py" />
-        <option value="$PROJECT_DIR$/defect_features/utils/features_combination.py" />
         <option value="$PROJECT_DIR$/defect_features/onelog_feature.py" />
-        <option value="$PROJECT_DIR$/defect_features/run_model.py" />
+        <option value="$PROJECT_DIR$/defect_features/object/mem_manager.py" />
+        <option value="$PROJECT_DIR$/defect_features/features/history.py" />
+        <option value="$PROJECT_DIR$/analyzer/git_commit_linker.py" />
+        <option value="$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py" />
+        <option value="$PROJECT_DIR$/defect_features/utils/features_combination.py" />
+        <option value="$PROJECT_DIR$/defect_features/log_generation.py" />
+        <option value="$PROJECT_DIR$/defect_features/log_features.py" />
         <option value="$PROJECT_DIR$/defect_features/build_model.py" />
+        <option value="$PROJECT_DIR$/defect_features/idmodel.py" />
+        <option value="$PROJECT_DIR$/defect_features/run_model.py" />
       </list>
     </option>
   </component>
@@ -379,7 +459,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1440" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -390,38 +470,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JIT-Identification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JIT-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JIT-Identification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JIT-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="analyzer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JIT-Identification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JIT-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
               <item name="defect_features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JIT-Identification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JIT-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="defect_features" type="462c0819:PsiDirectoryNode" />
+              <item name="git_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="defect_features" type="462c0819:PsiDirectoryNode" />
+              <item name="git_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="git_stats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
               <item name="defect_features" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JIT-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Identification" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Identification" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,9 +560,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_model">
+  <component name="RunManager" selected="Python.runR">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JIT-Identification" />
+      <module name="JITO-Identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -475,7 +652,7 @@
       <method v="2" />
     </configuration>
     <configuration name="idmodel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JIT-Identification" />
+      <module name="JITO-Identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -497,7 +674,7 @@
       <method v="2" />
     </configuration>
     <configuration name="rrr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JIT-Identification" />
+      <module name="JITO-Identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -519,7 +696,7 @@
       <method v="2" />
     </configuration>
     <configuration name="runR" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JIT-Identification" />
+      <module name="JITO-Identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -541,7 +718,7 @@
       <method v="2" />
     </configuration>
     <configuration name="run_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JIT-Identification" />
+      <module name="JITO-Identification" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -562,6 +739,112 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="JITO-Identification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.runR" />
       <item itemvalue="Python.hello" />
@@ -571,8 +854,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_model" />
         <item itemvalue="Python.runR" />
+        <item itemvalue="Python.run_model" />
         <item itemvalue="Python.hello" />
         <item itemvalue="Python.idmodel" />
         <item itemvalue="Python.rrr" />
@@ -593,15 +876,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.2" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25742576" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8626198" visible="true" weight="0.20990099" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -609,7 +892,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.23493975" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.1920792" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1373802" side_tool="true" weight="0.27821782" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -679,75 +962,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/featuresStore/purpose_feature" />
-    <entry file="file://$PROJECT_DIR$/defect_features/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featuresStore/commit_meta" />
-    <entry file="file://$PROJECT_DIR$/analyzer/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifier/category.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classifier/classifier.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/db/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/db/db_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/db/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/features/git_commit_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/features/git_one_commit_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2698">
-          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/git_analysis/analyze_git_namestat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/git_analysis/analyze_git_numstat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/object/features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/object/files.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -762,20 +976,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/delete_data.py" />
-    <entry file="file://$PROJECT_DIR$/defect_features/object/commit_meta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/features/diffusion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/features/one_diffusion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -818,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/features/history.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="250" column="35" selection-start-line="250" selection-start-column="35" selection-end-line="250" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/features/experience.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
@@ -836,20 +1029,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/R/onecommit.R" />
-    <entry file="file://$PROJECT_DIR$/analyzer/git_commit_linker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/features/purpose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="159" column="16" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/config/load_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -880,21 +1059,23 @@
     <entry file="file://$PROJECT_DIR$/defect_features/utils/extensions.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/utils/features_combination.py">
+    <entry file="file://$PROJECT_DIR$/defect_features/object/mem_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <marker date="1591346155525" expanded="true" signature="119:8901" ph="..." />
-            <marker date="1591346155525" expanded="true" signature="8939:8944" ph="..." />
-            <marker date="1591346155525" expanded="true" signature="9924:9929" ph="..." />
-          </folding>
+        <state relative-caret-position="-951">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/onelog_feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state>
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
@@ -905,86 +1086,199 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/db/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featuresStore/purpose_features">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featuresStore/experience_features">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featuresStore/diffusion_features">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log/druid/meta.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-110234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log/druid/merge_namestat.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-726" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log/druid/merge_numstat.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-657" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log/druid/namestat.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-599" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/log/druid/numstat.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featuresStore/history_features">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/features/diffusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/features/history.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="234" column="40" selection-start-line="234" selection-start-column="40" selection-end-line="234" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/features/purpose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/features/git_commit_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1090">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featuresStore/size_features">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featuresStore/commit_meta">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/git_analysis/analyze_git_logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/utils/features_combination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1591614495170" expanded="true" signature="119:9478" ph="..." />
+            <marker date="1591614495170" expanded="true" signature="9516:9521" ph="..." />
+            <marker date="1591614495170" expanded="true" signature="10501:10506" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/object/commit_meta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/log_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/onelog_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" selection-start-line="27" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/log_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-            <marker date="1591346155519" expanded="true" signature="530:532" ph="..." />
-            <marker date="1591346155519" expanded="true" signature="566:571" ph="..." />
-            <marker date="1591346155519" expanded="true" signature="1269:1273" ph="..." />
-            <marker date="1591346155519" expanded="true" signature="1325:1330" ph="..." />
-            <marker date="1591346155519" expanded="true" signature="1325:1334" ph="..." />
-            <marker date="1591346155519" expanded="true" signature="3009:3014" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/run_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <marker date="1591512060891" expanded="true" signature="77:79" ph="..." />
-            <marker date="1591512060891" expanded="true" signature="123:129" ph="..." />
-            <marker date="1591512060891" expanded="true" signature="514:515" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defect_features/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="70" />
+        <state relative-caret-position="397">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/idmodel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="462">
+          <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1591239356476" expanded="true" signature="54:56" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="97:102" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="97:836" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="541:546" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="541:550" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="888:893" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="888:1853" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="1650:1655" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="1895:1896" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="1895:1900" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="2839:2844" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="2839:3011" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="3057:3062" ph="..." />
-            <marker date="1591239356476" expanded="true" signature="3057:3073" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="54:56" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="97:102" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="97:836" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="541:546" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="541:550" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="888:893" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="888:1853" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="1650:1655" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="1895:1896" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="1895:1900" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="2839:2844" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="2839:3011" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="3057:3062" ph="..." />
+            <marker date="1591706417652" expanded="true" signature="3057:3073" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/log_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+            <marker date="1591615160796" expanded="true" signature="546:548" ph="..." />
+            <marker date="1591615160796" expanded="true" signature="593:598" ph="..." />
+            <marker date="1591615160796" expanded="true" signature="1449:1452" ph="..." />
+            <marker date="1591615160796" expanded="true" signature="1504:1509" ph="..." />
+            <marker date="1591615160796" expanded="true" signature="1504:1513" ph="..." />
+            <marker date="1591615160796" expanded="true" signature="3199:3204" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/defect_features/build_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="262">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <marker date="1591512060886" expanded="true" signature="35:36" ph="..." />
+            <marker date="1591619774901" expanded="true" signature="35:36" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/run_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <marker date="1591707244064" expanded="true" signature="77:79" ph="..." />
+            <marker date="1591707244064" expanded="true" signature="123:129" ph="..." />
+            <marker date="1591707244064" expanded="true" signature="514:515" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defect_features/onelog_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzer/git_commit_linker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="119" column="60" lean-forward="true" selection-start-line="119" selection-start-column="60" selection-end-line="119" selection-end-column="60" />
         </state>
       </provider>
     </entry>

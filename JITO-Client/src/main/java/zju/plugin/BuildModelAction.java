@@ -7,16 +7,8 @@ import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.progress.ProgressManager;
 import com.intellij.openapi.progress.Task;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.ui.Messages;
 import org.jetbrains.annotations.NotNull;
 import zju.defect.Build;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.Socket;
-import java.util.Properties;
 
 
 public class BuildModelAction extends AnAction {
@@ -31,26 +23,49 @@ public class BuildModelAction extends AnAction {
         String projectName = projectPath.substring(projectPath.lastIndexOf("/") + 1);
 
 
-        Build build = new Build();
-        ProgressManager.getInstance().run(
-                new Task.Modal(project, "Build Model", true) {
-                    @Override
-                    public void run(@NotNull ProgressIndicator indicator) {
 
+        ProgressManager.getInstance().run(
+                new Task.Backgroundable(project, "Model Building", true) {
+                    public void run(@NotNull ProgressIndicator indicator) {
                         indicator.setFraction(0.1);
+                        Build build = new Build();
                         try {
-                            Thread.sleep(700);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
+                            String result = build.buildModel(projectName, projectPath);
+                            indicator.setFraction(1.0);
+                            indicator.setText("Model Build Success");
+                            ProjectNotifier projectNotifier = new ProjectNotifier();
+                            projectNotifier.notify("Model Build Succuess");
+//                            Messages.showMessageDialog(result, "Information", Messages.getInformationIcon());
+                        }catch (Exception es){
+//                            Messages.showMessageDialog(es.getMessage(), "Information", Messages.getInformationIcon());
                         }
                     }
                 });
-        try {
-            String result = build.buildModel(projectName, projectPath);
-            Messages.showMessageDialog(result, "Information", Messages.getInformationIcon());
-        }catch (Exception es){
-            Messages.showMessageDialog(es.getMessage(), "Information", Messages.getInformationIcon());
-        }
+//        Messages.showMessageDialog("Model Build Success", "Information", Messages.getInformationIcon());
+
+
+//        ApplicationManager.getApplication().executeOnPooledThread(new Runnable() {
+//            public void run() {
+//                ApplicationManager.getApplication().runReadAction(new Runnable() {
+//                    public void run() {
+//                        // do whatever you need to do
+//                        Build build = new Build();
+//                        try {
+//                            String result = build.buildModel(projectName, projectPath);
+////                            Messages.showMessageDialog(result, "Information", Messages.getInformationIcon());
+//                        }catch (Exception es){
+////                            Messages.showMessageDialog(es.getMessage(), "Information", Messages.getInformationIcon());
+//                        }
+//
+//                    }
+//                });
+//            }
+//        });
+
+
+
+
+
 
 
 

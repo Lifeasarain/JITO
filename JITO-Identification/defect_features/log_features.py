@@ -3,6 +3,7 @@ import sys
 
 
 import json
+import datetime
 from defect_features.object import commit_meta
 from defect_features.git_analysis.analyze_git_logs import retrieve_git_logs
 from defect_features.git_analysis.analyze_git_logs import retrieve_git_log
@@ -16,15 +17,19 @@ from defect_features.db.api import *
 
 class LogFeatures:
 
-    def store_meta(self, project):
+    def store_meta(self, project, startTime):
         gls = retrieve_git_logs(project)
         db_objs = list()
         # print('number of commits:',len(gls))
         # print(project, 'Begin to store meta data')
+        startTime = datetime.datetime.strptime(startTime, "%Y-%m-%d")
+
         for gl in gls:
             cm = commit_meta.CommitMeta()
             cm.from_git_log(gl)
 
+            if getattr(cm, 'creation_time') < startTime:
+                continue
             cm_dict = {'project':getattr(cm, 'project'),'commit_id':getattr(cm, 'commit_id'),
                       'is_merge':getattr(cm, 'is_merge'), 'time_stamp':getattr(cm, 'time_stamp'),
                       'author_email':getattr(cm, 'author_email')}
@@ -33,7 +38,6 @@ class LogFeatures:
         cmpath = conf.local_path+"featuresStore/commit_meta"
         with open(cmpath, 'w') as f_meta:
             json.dump(db_objs, f_meta)
-
 
 
 
@@ -77,11 +81,11 @@ class LogFeatures:
 
 
 
-    def log_feature(self):
+    def log_feature(self, startTime):
         for p in conf.projects:
             # start = time.time()
             # print(p)
-            self.store_meta(p)
+            self.store_meta(p, startTime)
             self.store_features(p, 'diffusion')
             self.store_features(p, 'experience')
             self.store_features(p, 'purpose')

@@ -18,6 +18,7 @@ import slp.core.util.Util;
 
 import zju.defect.util.CSV_handler;
 import zju.defect.util.FileUtil;
+import zju.plugin.DataCenter;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +34,7 @@ public class JavaRunner {
     private static CSV_handler myCSV = new CSV_handler();
     private static boolean modelPerLine = true;
     private static boolean sentenceMarker = true;
-
+    private static double highlightRatio = DataCenter.highlightRatio;
     private static double threshold = 0;
 
     public void Initilation(String repoPath, String trainSetPathJava, List<String> bugFiles, int ngramLength){
@@ -72,21 +73,23 @@ public class JavaRunner {
         Model model = new JMModel(new GigaCounter());
         ModelRunner.learn(model, train);
 //        Stream<Pair<File, List<List<Double>>>> modeledFiles = ModelRunner.modelbug(model, test, bugFiles);
-        Stream<Pair<File, List<List<Double>>>> modeledFiles = ModelRunner.model(model, test);
-        List<Pair<File, List<List<Double>>>> modeledFilesList = modeledFiles.collect(Collectors.toList());
-
         Map<File, List<List<Double>>> stored = new HashMap<>();
-
-        for(int index = 0; index < modeledFilesList.size(); index ++){
-            Pair<File, List<List<Double>>> thisPair = modeledFilesList.get(index);
-            stored.put(thisPair.left, thisPair.right);
+        for(String bgf : bugFiles){
+            File bugFile = new File(bgf);
+            Stream<Pair<File, List<List<Double>>>> modeledFiles = ModelRunner.model(model, bugFile);
+            List<Pair<File, List<List<Double>>>> modeledFilesList = modeledFiles.collect(Collectors.toList());
+            for(int index = 0; index < modeledFilesList.size(); index ++){
+                Pair<File, List<List<Double>>> thisPair = modeledFilesList.get(index);
+                stored.put(thisPair.left, thisPair.right);
+            }
         }
+
 
 //        Map<File, List<List<Double>>> stored = modeledFiles.collect(Collectors.toMap(Pair::left, Pair::right));
 //        List<Pair<File, List<List<Double>>>> result = modeledFiles.collect(Collectors.toList());
         List<Sentence> sentences = FileUtil.getSentence(stored);
         List<Sentence> sortedSentences = sentences.stream().sorted(Comparator.comparing(Sentence::getEntropy).reversed()).collect(Collectors.toList());
-        List<Sentence> resultSentences = sortedSentences.subList(0, (new Double(sortedSentences.size()*0.1)).intValue());
+        List<Sentence> resultSentences = sortedSentences.subList(0, (new Double(sortedSentences.size()*highlightRatio)).intValue());
 
         return resultSentences;
 

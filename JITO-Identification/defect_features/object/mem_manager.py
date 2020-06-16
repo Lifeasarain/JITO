@@ -5,7 +5,7 @@ import psutil
 from copy import deepcopy
 from marshal import dump,load
 from defect_features.config import conf
-os.chdir("/Users/lifeasarain/Desktop/JITO/JIT-Identification/")
+# os.chdir("/Users/lifeasarain/Desktop/JITO/JIT-Identification/")
 
 
 class MemManager(object):

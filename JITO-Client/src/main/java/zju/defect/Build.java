@@ -21,8 +21,10 @@ public class Build {
             String pythonenv = DataCenter.pythonEnv;
             String pythonpath = DataCenter.pythonProject+"/defect_features/build_model.py ";
             String pythonProjectPath = DataCenter.pythonProject;
-
-            String pythonArgs = pythonenv + pythonpath + projectName + " "+pythonProjectPath +" "+ dataPath;
+            String startTime = DataCenter.startTime;
+            String endTime = DataCenter.endTime;
+            String pythonArgs = pythonenv + pythonpath + projectName + " "+pythonProjectPath +" "+ dataPath+" "+startTime+" "+endTime;
+//            String pythonArgs = pythonenv + pythonpath + projectName + " "+pythonProjectPath +" "+ dataPath;
             System.out.println(pythonArgs);
             Process proc = Runtime.getRuntime().exec(pythonArgs);
             BufferedReader in = new BufferedReader(new InputStreamReader(proc.getInputStream()));

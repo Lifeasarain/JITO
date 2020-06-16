@@ -43,6 +43,8 @@ class FeatureCombination:
                                              'fix_by','find_interval','buggy_lines','fixes','fix_file_num','clean_lines'])
 
     def loadjson_v(self, project):
+        with open(conf.local_path+"featuresStore/commit_meta", 'r') as load_f:
+            commits_meta = json.load(load_f)
         with open(conf.local_path+"featuresStore/history_features", 'r') as load_f:
             history_features = json.load(load_f)
         with open(conf.local_path+"featuresStore/experience_features", 'r') as load_f:
@@ -53,9 +55,19 @@ class FeatureCombination:
             diffusion_features = json.load(load_f)
 
         commits_dict = dict()
+        for elem in commits_meta:
+            commits_dict[elem['commit_id']] = {'commit_id': elem['commit_id'], 'project': elem['project']}
+
+
         for elem in history_features:
-            commits_dict[elem['commit_id']] = {'commit_id':elem['commit_id'],'project':elem['project'],
-                                     'ndev':elem['ndev'],'age':elem['age'],'nuc':elem['nuc']}
+            if elem['commit_id'] not in commits_dict:
+                continue
+            # commits_dict[elem['commit_id']] = {'commit_id':elem['commit_id'],'project':elem['project'],
+            #                          'ndev':elem['ndev'],'age':elem['age'],'nuc':elem['nuc']}
+            else:
+                commits_dict[elem['commit_id']]['ndev'] = elem['ndev']
+                commits_dict[elem['commit_id']]['age'] = elem['age']
+                commits_dict[elem['commit_id']]['nuc'] = elem['nuc']
         for elem in experience_features:
             if elem['commit_id'] not in commits_dict:
                 continue

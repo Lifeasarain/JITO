@@ -96,11 +96,6 @@ public class DefectLocater {
     }
 
     public List<Sentence> modelRuning(String repoPath, String commitHash, int ngramLength, String projectName) throws IOException {
-//        Properties props = new Properties();
-//        props.load(this.getClass().getResourceAsStream("/config.properties"));
-//        String inputContent = props.getProperty("inputContent-path");
-
-//        String trainSetPathJava = props.getProperty("trainSet-path")+"/"+projectName+"Train.java";
 
         String inputContent = DataCenter.pythonProject+"/defect_features/utils/data_tmp";
         String trainSetPathJava = DataCenter.pythonProject + "/train/"+projectName+"Train.java";
@@ -116,10 +111,10 @@ public class DefectLocater {
 
     public void getCleanLines(String inputContent, String trainSetPathJava, String projetName)throws IOException {
         CSV_handler myCSV = new CSV_handler();
-        File file = new File(trainSetPathJava);
-        if (!file.exists()) {
-            file.getParentFile().mkdir();
-        }
+//        File file = new File(trainSetPathJava);
+//        if (!file.exists()) {
+//        file.getParentFile().mkdir();
+//        }
         List<String> trainLineContent = new ArrayList<String>();
         String inputContentCsv = inputContent + "/" + projetName + "_a.csv";
         List<String[]> content = myCSV.getContentFromFile(new File(inputContentCsv));
@@ -144,18 +139,18 @@ public class DefectLocater {
 
 
 
-    public static void main(String[] args) throws IOException {
-        DefectLocater dfl = new DefectLocater();
-//        List<Sentence> sentences = dfl.modelRuning("/Users/lifeasarain/IdeaProjects/druid", "a7844ab716eeeaddad24061dcf6224264444c67b", ngramLength, "druid");
-//        for(Sentence sentence : sentences){
-//            System.out.println(sentence.getLineNumber());
+//    public static void main(String[] args) throws IOException {
+//        DefectLocater dfl = new DefectLocater();
+////        List<Sentence> sentences = dfl.modelRuning("/Users/lifeasarain/IdeaProjects/druid", "a7844ab716eeeaddad24061dcf6224264444c67b", ngramLength, "druid");
+////        for(Sentence sentence : sentences){
+////            System.out.println(sentence.getLineNumber());
+////        }
+//        DataCenter.pythonEnv = "/opt/anaconda3/envs/tensorflow/bin/python3.7 ";
+//        DataCenter.pythonProject = "/Users/lifeasarain/Desktop/tmp/JITO/JITO-Identification";
+////        dfl.analyzeProb("a7844ab716eeeaddad24061dcf6224264444c67b");
+//        List<Sentence> sentences = dfl.modelRuning("/Users/lifeasarain/IdeaProjects/druid", "a7844ab716eeeaddad24061dcf6224264444c67b", 6, "druid");
+//        for (Sentence sentence : sentences) {
+//            System.out.println(sentence.getEntropy());
 //        }
-        DataCenter.pythonEnv = "/opt/anaconda3/envs/tensorflow/bin/python3.7 ";
-        DataCenter.pythonProject = "/Users/lifeasarain/Desktop/JITO/JIT-Identification";
-        dfl.analyzeProb("a7844ab716eeeaddad24061dcf6224264444c67b");
-        List<Sentence> sentences = dfl.modelRuning("/Users/lifeasarain/IdeaProjects/druid", "a7844ab716eeeaddad24061dcf6224264444c67b", 6, "druid");
-        for (Sentence sentence : sentences) {
-            System.out.println(sentence.getEntropy());
-        }
-    }
+//    }
 }

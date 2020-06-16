@@ -16,7 +16,8 @@ public class DataCenter {
     public static String endTime = "";
     // n-gram 训练集位置
     public static String trainSet = "";
-
+    // 高亮比例
+    public static double highlightRatio = 0.1;
     // 已高亮的代码
     public static List<Sentence> MarkedLine = new LinkedList<>();
 

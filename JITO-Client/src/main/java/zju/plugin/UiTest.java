@@ -1,5 +1,6 @@
 package zju.plugin;
 
+import com.intellij.openapi.ui.Messages;
 import com.intellij.ui.EditorTextField;
 
 import javax.swing.*;
@@ -9,11 +10,11 @@ import java.io.File;
 public class UiTest {
     public static void main(String[] agrs){
         JFrame frame = new JFrame("GridWeightTest");
-        frame.setSize(200, 300);
+        frame.setSize(300, 150);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
         JPanel panel = new JPanel();
-
+        panel.setPreferredSize(new Dimension(200, 100));
         panel.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.fill = GridBagConstraints.BOTH;
@@ -47,8 +48,8 @@ public class UiTest {
         gbc.weighty = 1;
         panel.add(pythonEnvButton, gbc);
 
-        TextField pythonProjectText = new TextField("Analyze Part Path");
-        pythonProjectText.setPreferredSize(new Dimension(160, 30));
+        TextField pythonProjectText = new TextField("JITO-Identification Path");
+//        pythonProjectText.setPreferredSize(new Dimension(160, 30));
         gbc.gridx = 0;
         gbc.gridy = 1;
         gbc.gridwidth = 1;
@@ -70,8 +71,8 @@ public class UiTest {
 
 
 
-        TextField dbUsernameText = new TextField("Database username");
-        dbUsernameText.setPreferredSize(new Dimension(200, 30));
+        TextField dbUsernameText = new TextField("Train set start time (eg. 2020-1-1)");
+//        dbUsernameText.setPreferredSize(new Dimension(200, 30));
         gbc.gridx = 0;
         gbc.gridy = 2;
         gbc.gridwidth = 2;
@@ -82,7 +83,7 @@ public class UiTest {
 
 
         TextField dbPasswordText = new TextField("Database password");
-        dbPasswordText.setPreferredSize(new Dimension(200, 30));
+//        dbPasswordText.setPreferredSize(new Dimension(200, 30));
         gbc.gridx = 0;
         gbc.gridy = 3;
         gbc.gridwidth = 2;
@@ -93,5 +94,9 @@ public class UiTest {
 
         frame.add(panel);
         frame.setVisible(true);
+
+        Messages.showMessageDialog("This change is likely buggy", "Information", Messages.getInformationIcon());
+        Messages.showMessageDialog("This change is likely clean", "Information", Messages.getInformationIcon());
+
     }
 }

@@ -52,33 +52,42 @@ public class AnalyzeChangesAction extends AnAction {
 
                     }
                 });
-        DefectLocater defectLocater = new DefectLocater();
+
         try {
+            DefectLocater defectLocater = new DefectLocater();
             if (defectLocater.analyzeProb(commitHash)) {
-//                Messages.showMessageDialog(projectName, "Information", Messages.getInformationIcon());
                 List<Sentence> sentences = defectLocater.modelRuning(projectPath, commitHash, 6, projectName);
                 MyMarkupModel myMarkupModel = new MyMarkupModel();
                 for (Sentence sentence : sentences) {
                     DataCenter.MarkedLine.add(sentence);
                     myMarkupModel.highlight(sentence.getFile(), project, sentence.getLineNumber());
                 }
-                Messages.showMessageDialog("Marked Sentences", "Information", Messages.getInformationIcon());
+                Messages.showMessageDialog("This change is likely buggy", "Information", Messages.getInformationIcon());
             }
             else{
-                Messages.showMessageDialog("There is no bug", "Information", Messages.getInformationIcon());
+                Messages.showMessageDialog("This change is likely clean", "Information", Messages.getInformationIcon());
+
             }
 //            String result = defectLocater.analyzeProb(commitHash);
 //            Messages.showMessageDialog(result, "Information", Messages.getInformationIcon());
         }catch (Exception ex){
-            ex.printStackTrace();
+//                            ex.printStackTrace();
             Messages.showMessageDialog(ex.getMessage(), "Error", Messages.getInformationIcon());
             return;
         }
+
+
+
+
+
+
+
+
     }
 //    public static void main(String args[]){
 //        DefectLocater defectLocater = new DefectLocater();
 //
-//        DataCenter.pythonProject = "/Users/lifeasarain/Desktop/JITO/JIT-Identification";
+//        DataCenter.pythonProject = "/Users/lifeasarain/Desktop/tmp/JITO/JITO-Identification";
 //        defectLocater.analyzeProb("a7844ab716eeeaddad24061dcf6224264444c67b");
 //        try {
 //            List<Sentence> sentences = defectLocater.modelRuning("/Users/lifeasarain/IdeaProjects/druid", "a7844ab716eeeaddad24061dcf6224264444c67b", 6, "druid");
