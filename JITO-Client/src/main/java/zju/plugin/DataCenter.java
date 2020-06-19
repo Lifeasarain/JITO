@@ -20,6 +20,9 @@ public class DataCenter {
     public static double highlightRatio = 0.1;
     // 已高亮的代码
     public static List<Sentence> MarkedLine = new LinkedList<>();
-
+    // 测试集位置
+    public static String testSet = "";
+    // 原始文件对应表
+    public static String originalFile = "";
 
 }

@@ -23,14 +23,6 @@ public class Util {
         return localFilePath;
     }
 
-    public static void main(String agrs[]){
-        Util util = new Util();
-//        try {
-//            util.getProjectPath();
-//        System.out.print(util.getLocalFilePath("/home/qiufc/data/druid/src/main/java/com/alibaba/druid/support/http/WebStatFilter.java"));
-//        }catch (IOException e){
 
-//        }
-    }
 
 }

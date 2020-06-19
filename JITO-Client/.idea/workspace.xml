@@ -3,35 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="c72d372a-4bfa-465e-88d8-ab0086326a77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/Build.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/Build.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/BuildModelTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/DefectLocater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/DefectLocater.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/JavaRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/JavaRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/Proptest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/AnalyzeChangesAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/AnalyzeChangesAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/BuildModelAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/BuildModelAction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/BuildModelAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/BuildModelAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/defect/util/FileUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/DataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/DataCenter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/PropertiesDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/PropertiesDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/UiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JITO-Client/zju/plugin/UiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zju/defect/Build.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/defect/Build.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/.idea/JIT-Identification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/.idea/JITO-Identification.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zju/plugin/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zju/plugin/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JITO-Identification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/build_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/build_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/git_analysis/analyze_git_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/git_analysis/analyze_git_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/db/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/db/db_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/db/models.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/log_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/log_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/log_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/log_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/object/mem_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/object/mem_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/utils/features_combination.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/utils/features_combination.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/onelog_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/onelog_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JITO-Identification/defect_features/run_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JITO-Identification/defect_features/run_model.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,61 +75,47 @@
     <session id="-786726072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="18" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="1354" />
+          <entry key="java" value="2377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1354" />
+          <entry key="JAVA" value="2377" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/Trainsettest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="953">
+              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -143,17 +123,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+            <state relative-caret-position="697">
+              <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UnhighlightAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="513">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -161,17 +141,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="46" selection-start-line="46" selection-start-column="2" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="418">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -179,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="-514">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,19 +169,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="1311">
+              <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/SetPropertiesAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/MyMarkupModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="190">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/ProjectNotifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/TestSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,6 +225,8 @@
       <find>closeable</find>
       <find>success</find>
       <find>test</find>
+      <find>bugFile</find>
+      <find>stored</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,19 +239,21 @@
         <option value="$PROJECT_DIR$/src/main/java/slp/core/example/JavaRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/slp/core/util/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/slp/core/util/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zju/defect/Build.java" />
         <option value="$PROJECT_DIR$/src/main/java/zju/plugin/BuildDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelNotifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/zju/defect/Trainsettest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/defect/util/TestSetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zju/plugin/Util.java" />
       </list>
     </option>
   </component>
@@ -262,7 +270,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1440" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -274,12 +282,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
               <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JITO-Client" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +340,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zju" type="462c0819:PsiDirectoryNode" />
-              <item name="defect" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JITO-Client" type="b2602c69:ProjectViewProjectNode" />
@@ -336,8 +351,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -348,7 +361,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592286177679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592471945262" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -381,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Trainsettest">
+  <component name="RunManager" selected="Application.TestSetTest">
     <configuration name="AnalyzeChangesAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zju.plugin.AnalyzeChangesAction" />
       <module name="JITO-Client" />
@@ -401,6 +414,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zju.defect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.defect.util.TestSetTest" />
+      <module name="JITO-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.defect.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,10 +460,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLP-Core_v0.2.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/SLP-Core_v0.2.jar" />
-      <method v="2" />
-    </configuration>
     <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="JITO-Client" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
@@ -460,17 +482,17 @@
       <item itemvalue="Plugin.Plugin" />
       <item itemvalue="Application.DefectLocater" />
       <item itemvalue="Application.AnalyzeChangesAction" />
-      <item itemvalue="JAR Application.SLP-Core_v0.2.jar" />
       <item itemvalue="Application.UiTest" />
       <item itemvalue="Application.Trainsettest" />
+      <item itemvalue="Application.TestSetTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSetTest" />
+        <item itemvalue="Application.DefectLocater" />
         <item itemvalue="Application.Trainsettest" />
         <item itemvalue="Application.AnalyzeChangesAction" />
-        <item itemvalue="Application.DefectLocater" />
         <item itemvalue="Application.UiTest" />
-        <item itemvalue="JAR Application.SLP-Core_v0.2.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -637,11 +659,14 @@
       <workItem from="1592054592521" duration="2942000" />
       <workItem from="1592286225942" duration="378000" />
       <workItem from="1592287287860" duration="21000" />
+      <workItem from="1592372729471" duration="6556000" />
+      <workItem from="1592386928663" duration="2183000" />
+      <workItem from="1592390029830" duration="1844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43037000" />
+    <option name="totallyTimeSpent" value="53620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,10 +678,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="999" extended-state="6" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14217253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.171459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -664,8 +689,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25940594" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.25940594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,7 +698,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32970297" />
       <window_info anchor="bottom" id="Analysis" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32970297" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.25940594" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.18019801" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -688,6 +713,39 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.171459" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.25940594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.20396039" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32970297" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32970297" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.25940594" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18019801" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="PsiViewer" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -731,18 +789,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/compiler/IScanner.class</url>
           <properties />
           <option name="timeStamp" value="8" />
@@ -762,13 +808,6 @@
     <entry file="jar://$PROJECT_DIR$/lib/SLP-Core_v0.2.jar!/slp/core/modeling/ngram/NGramCache.class" />
     <entry file="jar://$PROJECT_DIR$/lib/SLP-Core_v0.2.jar!/slp/core/modeling/ngram/JMModel.class" />
     <entry file="jar://$PROJECT_DIR$/lib/SLP-Core_v0.2.jar!/slp/core/modeling/ngram/NGramModel.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UnhighlightAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/lexing/runners/LexerRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/modeling/runners/ModelRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/modeling/Model.java">
@@ -844,13 +883,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/Proptest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocatertest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/BuildModelTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/util/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.10.0.jar!/org/eclipse/jdt/core/ToolFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -887,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/ProjectNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/counting/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -901,89 +926,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="63" column="11" lean-forward="true" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/Trainsettest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/GitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+        <state relative-caret-position="363">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/slp/core/util/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="46" selection-start-line="46" selection-start-column="2" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="266">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/SetPropertiesAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="228">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/JavaRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="424" column="45" selection-start-line="424" selection-start-column="45" selection-end-line="424" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/util/TestSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/defect/DefectLocater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/AnalyzeChangesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/HighlightTestAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/BuildModelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/DataCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/MyMarkupModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/ProjectNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/PropertiesDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="138" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zju/plugin/UnhighlightAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

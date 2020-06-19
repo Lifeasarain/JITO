@@ -19,13 +19,14 @@ def runmodel(commithash, pythonProjectPath):
     from defect_features.onelog_feature import OneLogFeatures
     from defect_features.utils.features_combination import FeatureCombination
     from defect_features.idmodel import Idmodel
+    from defect_features.change_lines import Changelines
 
     for p in conf.projects:
         # print('Project',p)
-        GitOneLog().commitrun(p)
-        OneLogFeatures().log_one_feature()
-        FeatureCombination().one_featureCombination(commithash)
-
+        # GitOneLog().commitrun(p)
+        # OneLogFeatures().log_one_feature()
+        # FeatureCombination().one_featureCombination(commithash)
+        Changelines().getChangelines(p)
         result = Idmodel().runIdmodel(pythonProjectPath)
         if(1 == result):
             print('1')
@@ -34,6 +35,7 @@ def runmodel(commithash, pythonProjectPath):
             print('0')
             return '0'
 
+
 if __name__ == '__main__':
      runmodel(sys.argv[1], sys.argv[2])
-    # runmodel("a7844ab716eeeaddad24061dcf6224264444c67b", "/Users/lifeasarain/Desktop/JITO/JIT-Identification")
+    # runmodel("a7844ab716eeeaddad24061dcf6224264444c67b", "/Users/lifeasarain/Desktop/Demo_JITO-Identification")

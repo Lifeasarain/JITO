@@ -25,12 +25,7 @@ public class AnalyzeChangesAction extends AnAction {
     @Override
     public void actionPerformed(AnActionEvent e) {
         // TODO: insert action logic here
-//        if (!Util.hasBuilt){
-//            Messages.showMessageDialog("Build Model First", "Error", Messages.getInformationIcon());
-//            return;
-//        }
 
-//        Project project = e.getData(DataKeys.PROJECT);
         Project project = e.getProject();
         String fullPath = project.getProjectFilePath();
         String projectPath = fullPath.substring(0, fullPath.length() - 15);

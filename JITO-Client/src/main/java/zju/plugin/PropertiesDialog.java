@@ -136,6 +136,8 @@ public class PropertiesDialog extends DialogWrapper {
             }catch (Exception ex){
 
             }
+            DataCenter.testSet = DataCenter.pythonProject+"/train/javafile.java";
+            DataCenter.originalFile = DataCenter.pythonProject+"/train/test.txt";
             PropertiesDialog.this.dispose();
         });
         panel.add(button);

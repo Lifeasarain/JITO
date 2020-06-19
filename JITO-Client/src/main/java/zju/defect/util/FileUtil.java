@@ -25,8 +25,15 @@ import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+import javafx.util.Pair;
+import org.apache.commons.io.FileUtils;
 import zju.defect.DefectLocater;
 import zju.defect.Sentence;
+import zju.plugin.DataCenter;
 
 public class FileUtil {
 	private static CSV_handler myCSV = new CSV_handler();
@@ -375,7 +382,7 @@ public class FileUtil {
 		myCSV.writeToCsv(new File(trainCsvNewUrl), header, trainLines);	
 	}
 
-	public static List<Sentence> getSentence(Map<File, List<List<Double>>> stored){
+	public static List<Sentence> getSentence(Map<File, List<List<Double>>> stored) throws IOException{
 		List<Sentence> sentences = new ArrayList<>();
 		for(Map.Entry<File, List<List<Double>>> entry : stored.entrySet()){
 			List<List<Double>> tokens = entry.getValue();
@@ -394,9 +401,30 @@ public class FileUtil {
 				}
 				double average = sum / (tokens.get(i).size());
 				double entropy = average + max;
-				sentence.setFile(entry.getKey());
+
+				File testSet = new File(DataCenter.originalFile);
+				String content= FileUtils.readFileToString(testSet,"UTF-8");
+				JsonParser parser = new JsonParser();
+				JsonElement element = parser.parse(content);
+				JsonArray array = element.getAsJsonArray();
+				ArrayList<Pair> originalFiles = new ArrayList<Pair>();
+				for (int k = 0; k < array.size(); k++) {
+
+					String pairStr = array.get(k).toString();
+					String filePath = pairStr.substring(0, pairStr.indexOf(":"));
+					filePath = filePath.substring(2, filePath.length() - 1);
+					int lineNumber = Integer.parseInt(pairStr.substring(pairStr.indexOf(":") + 1, pairStr.length() - 1));
+					Pair<String, Integer> pair = new Pair<>(filePath, lineNumber);
+					originalFiles.add(pair);
+				}
+
+				File originalFile = new File(originalFiles.get(i).getKey().toString());
+
+				sentence.setLineNumber(Integer.parseInt(originalFiles.get(i).getValue().toString())+1);
+				sentence.setFile(originalFile);
 				sentence.setEntropy(entropy);
-				sentence.setLineNumber(i+1);
+//				sentence.setFile(entry.getKey());
+//				sentence.setLineNumber(i+1);
 				sentences.add(sentence);
 			}
 		}

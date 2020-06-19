@@ -23,46 +23,7 @@ public class DefectLocater {
     public static int ngramLength = 6;
     private static GitUtil gitUtil = new GitUtil();
 
-//    @Override
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        this.doPost(request,response);
-//    }
 
-//    @Override
-//    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-//        //接收客户端数据
-//        request.setCharacterEncoding("utf-8");
-//        String projectName = request.getParameter("projectName");
-//
-//        Properties props = new Properties();
-//        props.load(this.getClass().getResourceAsStream("/config.properties"));
-//        String dataPath = props.getProperty("data-path");
-//        String repoPath = dataPath + "/" + projectName;
-//        String commitHash = gitUtil.getLastCommit(repoPath);
-//
-//        //返回数据
-//        if(analyzeProb(commitHash)){
-//            List<Sentence> sentences = modelRuning(repoPath, commitHash, ngramLength, projectName);
-//            Gson gson = new Gson();
-//            String json = gson.toJson(sentences);
-//            response.setCharacterEncoding("UTF-8");
-//            PrintWriter out = response.getWriter();
-//            out.write(json);
-//            out.close();
-//        }
-//        else{
-//            PrintWriter out = response.getWriter();
-//            String sendString = "None bug";
-//            out.write(sendString);
-//            out.close();
-//        }
-//    }
-//    public void analyzeChange(String commitHash, String projectPath, String projectName) throws IOException{
-//        if(analyzeProb(commitHash)){
-//            List<Sentence> sentences = modelRuning(projectPath, commitHash, ngramLength, projectName);
-//
-//        }
-//    }
 
 
     public Boolean analyzeProb(String commitHash){
@@ -99,12 +60,13 @@ public class DefectLocater {
 
         String inputContent = DataCenter.pythonProject+"/defect_features/utils/data_tmp";
         String trainSetPathJava = DataCenter.pythonProject + "/train/"+projectName+"Train.java";
+        String testPath = DataCenter.pythonProject+"/train/javafile.java";
 
 
         List<String> bugFiles = gitUtil.getBugFilePath(repoPath, commitHash);
         getCleanLines(inputContent,trainSetPathJava, projectName);
         JavaRunner jr = new JavaRunner();
-        jr.Initilation(repoPath, trainSetPathJava, bugFiles, ngramLength);
+        jr.Initilation(repoPath, trainSetPathJava, bugFiles, ngramLength, testPath);
         List<Sentence> sentences = jr.LocateModeling();
         return sentences;
     }
@@ -145,7 +107,7 @@ public class DefectLocater {
 ////        for(Sentence sentence : sentences){
 ////            System.out.println(sentence.getLineNumber());
 ////        }
-//        DataCenter.pythonEnv = "/opt/anaconda3/envs/tensorflow/bin/python3.7 ";
+////        DataCenter.pythonEnv = "/opt/anaconda3/envs/tensorflow/bin/python3.7 ";
 //        DataCenter.pythonProject = "/Users/lifeasarain/Desktop/tmp/JITO/JITO-Identification";
 ////        dfl.analyzeProb("a7844ab716eeeaddad24061dcf6224264444c67b");
 //        List<Sentence> sentences = dfl.modelRuning("/Users/lifeasarain/IdeaProjects/druid", "a7844ab716eeeaddad24061dcf6224264444c67b", 6, "druid");
